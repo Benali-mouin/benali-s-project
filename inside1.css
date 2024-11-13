@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+background-image: url('https://wallpapercave.com/wp/wp2795180.jpg'); 
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.hero-image {
+    background-image: linear-gradient(rgba(62, 62, 62, 0.5), rgba(62, 62, 62, 0.5)),
+     url("https://wallpapercave.com/wp/wp2795180.jpg");
+  
+    height: 80%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.clothing-button {
+    background-color: #FF5733; 
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.clothing-button:hover {
+    background-color: #C70039;
+    transform: translateY(-5px);
+}
+
+.clothing-button:active {
+    transform: translateY(2px);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

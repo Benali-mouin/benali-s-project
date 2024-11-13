@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d6f6fc;
+}
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+     url("https://wallpapercave.com/wp/wp2795180.jpg");
+  
+    height: 80%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.cart {
+    position: relative;
+}
+
+.cart-icon {
+    font-size: 24px;
+}
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.hero-section {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwSWOz8z-nMg0I9tqJNAs-8zinti1QGZBQw&s");
+    width: 100vw;
+    height: 100vh;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.product-container {
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-card {
+    background: rgb(255, 255, 255);
+    border: 1px solid #a4d5dd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    max-width: 100%;
+    height
+}
+
+
+.cart-modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+} 
+
+.modal-content {
+    background-color: rgb(166, 221, 236);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    position: relative;
+}
+
+.close-modal {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.container h1{
+    color: white;
+}
+.container p{
+    color: white;
+}
+.product-container h2{
+    color: white;
+}
